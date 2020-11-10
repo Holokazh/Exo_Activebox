@@ -1,0 +1,63 @@
+@media screen and (min-width:376px) and (max-width:768px) {
+    /**** GLOBALS SETTINGS ****/
+    .wrapper {
+        width: 80%;
+    }
+    .s1 article, .s1 p, .s2 figure, .s2 img, .s4 img, .s4 div, .s4 p {
+        width: 100%;
+    }
+    /**** HEADER ****/
+    header {
+        height: auto;
+    }
+    nav div {
+        flex-direction: column;
+    }
+    nav div a {
+        padding: 0 0 5px 0;
+    }
+    nav div a:last-child {
+        padding: 0;
+    }
+    h1 {
+        font-size: 2em;
+        padding-top: 25px;
+    }
+    h3 {
+        font-size: 1em;
+    }
+    .FindOutMore {
+        margin-top: 50px;
+    }
+    /**** BODY ****/
+    /*** SECTION 1 ***/
+    .s1divTop article:nth-child(2), .s1divBottom article:nth-child(2) {
+        padding: 0 30px;
+    }
+    .s1 img {
+        width: 30%;
+    }
+    /*** SECTION 3 ***/
+    .s3 article {
+        padding: 30px 15px 15px;
+    }
+    .s3 figcaption {
+        font-size: 1em;
+    }
+    .s3 p {
+        font-size: 1em;
+        text-align: justify;
+    }
+    .s3 img {
+        width: 30px;
+    }
+    /*** SECTION 4 ***/
+    .s4 p {
+        font-size: 1em;
+        padding-top: 0.8em;
+    }
+    /**** FOOTER ****/
+    footer div {
+        padding-top: 0;
+    }
+}
